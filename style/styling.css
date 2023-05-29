@@ -1,0 +1,36 @@
+.navbar-brand, h1 {
+    font-family: 'Pusab', sans-serif;
+    font-size: 1.8rem;
+}
+
+.h2 {
+    font-family: 'Pusab', sans-serif;
+    font-size: 1.8rem;
+    animation: bounce 4s infinite alternate;
+}
+
+.actives {
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    
+}
+
+.img-0 {
+    width: 2.5rem;
+    animation: bounce 4s infinite alternate;
+}
+
+.img-1 {
+    width: 9rem;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+    40% {transform: translateY(-20px);} 
+    60% {transform: translateY(-15px);} 
+ } 
+
+@import url('https://fonts.cdnfonts.com/css/pusab');
