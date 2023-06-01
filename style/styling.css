@@ -59,6 +59,12 @@ body {
     margin-top: 1rem;
 }
 
+.tt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-0 {
     width: 2.5rem;
     animation: bounce 4s infinite alternate;

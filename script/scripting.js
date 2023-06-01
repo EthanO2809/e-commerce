@@ -1,7 +1,7 @@
 let Products = [
     {
-        name1: 'Phoenix H200-i5k Gaming PC <BR CLEAR="left"/> – Z590/i5-  11600k/16GB/RTX3060/512SSD/750W',
-        name2: "Gaming Monitor Png - Asus 35 Rog Strix Xg35vq",
+        name1: 'Phoenix H200-i5k<BR CLEAR="left"/> Gaming PC – Z590/i5-  11600k/16GB<BR CLEAR="left"/>/RTX3060/512SSD/750W',
+        name2: 'Gaming Monitor Png - Asus 35 <BR CLEAR="left"/> Rog Strix Xg35vq',
         name3: "500GB Xbox One S",
         name4: "62inch 8K UHD LG OLED TV",
         image1: "./content/thermaltake-h200tg-pc-gaming-case-south-africa.png",
