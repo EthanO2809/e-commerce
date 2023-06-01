@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: url("../content/Dark\ Ocean.jpg");
 }
 
 .navbar-brand, h1 {
@@ -49,7 +50,13 @@ body {
 
 .flex-container {
     display: flex;
-    
+    justify-content: left;
+    align-items: left;
+    margin-left: 2rem;
+}
+
+.mgt {
+    margin-top: 1rem;
 }
 
 .img-0 {

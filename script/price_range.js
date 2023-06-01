@@ -63,10 +63,10 @@ let Products = [
 
 let dispProducts = document.querySelector('#Products.row');
 Products.forEach((data) => {
-    dispProducts.innerHTML += `<div class="container-fluid bg-secondary-subtle rounded-4 text-center flex row col-12" id="products">
+    dispProducts.innerHTML += `<div class=" container-fluid flex row col-12" id="products">
     <p class="text-center">
         <img src="${data.image}" alt="" class="imgs img-fluid"/><BR CLEAR="left"/>
-        <a href="" class="blck">${data.Name}<BR CLEAR="left"/>${data.Price}
+        <a href="" class="blck text-white">${data.Name}<BR CLEAR="left"/>${data.Price}
       </a></p><br>
   
   </div>

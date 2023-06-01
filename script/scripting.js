@@ -16,25 +16,25 @@ let dispProducts = document.getElementById('Products');
 Products.forEach((data) => {
     dispProducts.innerHTML += `
 
-<div class="container-fluid bg-secondary-subtle rounded-4">
-      <br><h1 class="fs-3 text-black h2">Top Picks</h1>
+<div class="container-fluid bg-black rounded-4">
+      <br><h1 class="fs-3 text-white h2">Top Picks</h1>
       <br>
      <p class="text-center">
-      <a href=""><img src="${data.image1}" alt="" width="300rem" class="img-fluid" loading="lazy"/><br>
+      <a href="" class="text-white"><img src="${data.image1}" alt="" width="300rem" class="img-fluid" loading="lazy"/><br>
       ${data.name1}
     </a></p>
 <br>
      <p class="text-center">
-      <a href=""><img src="${data.image2}" alt="" width="300rem" class="img-fluid" loading="lazy"/><br>
+      <a href="" class="text-white"><img src="${data.image2}" alt="" width="300rem" class="img-fluid" loading="lazy"/><br>
       ${data.name2}
     </a></p><br>
 
      <p class="text-center">
-      <a href=""><img src="${data.image3}" alt="" width="300rem" class="img-fluid" loading="lazy"/><br>
+      <a href="" class="text-white"><img src="${data.image3}" alt="" width="300rem" class="img-fluid" loading="lazy"/><br>
       ${data.name3}
     </a></p><br>
      <p class="text-center">
-      <a href=""><img src="${data.image4}" alt="" width="300rem" class="img-fluid" loading="lazy"/><br>
+      <a href="" class="text-white"><img src="${data.image4}" alt="" width="300rem" class="img-fluid" loading="lazy"/><br>
       ${data.name4}
     </a></p><br>
       
